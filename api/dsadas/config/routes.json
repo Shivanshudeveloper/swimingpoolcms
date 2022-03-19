@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/dsadas",
+      "handler": "dsadas.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dsadas/count",
+      "handler": "dsadas.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dsadas/:id",
+      "handler": "dsadas.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/dsadas",
+      "handler": "dsadas.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/dsadas/:id",
+      "handler": "dsadas.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/dsadas/:id",
+      "handler": "dsadas.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

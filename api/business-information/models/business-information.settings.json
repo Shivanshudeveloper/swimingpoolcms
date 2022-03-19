@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "business_informations",
+  "info": {
+    "name": "business_information"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "address": {
+      "type": "string"
+    },
+    "phone_number": {
+      "type": "string"
+    },
+    "emailaddress": {
+      "type": "string"
+    },
+    "facebooklink": {
+      "type": "string"
+    },
+    "twitterlink": {
+      "type": "string"
+    },
+    "instagramlink": {
+      "type": "string"
+    }
+  }
+}

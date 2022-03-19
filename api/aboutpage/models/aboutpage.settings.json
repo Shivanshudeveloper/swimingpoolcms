@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "aboutpages",
+  "info": {
+    "name": "aboutpage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "aboutus": {
+      "type": "richtext"
+    }
+  }
+}

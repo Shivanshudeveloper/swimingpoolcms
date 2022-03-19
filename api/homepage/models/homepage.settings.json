@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homepages",
+  "info": {
+    "name": "homepage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "introduction_header": {
+      "type": "string"
+    },
+    "introduction_description": {
+      "type": "string"
+    },
+    "about_section_homepage": {
+      "type": "richtext"
+    }
+  }
+}
